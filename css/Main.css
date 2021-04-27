@@ -1,0 +1,147 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: ;
+}
+body {
+	background: #ffcc99;
+	position: relative;
+}
+
+section {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: black;
+}
+
+section img {
+	position: absolute; 
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	pointer-events: none;
+}
+
+section:before {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to top,  #ffcc99, transparent);
+	z-index: 100;
+}
+
+section:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	background: #ffcc99;
+	z-index: 100;
+	mix-blend-mode:color-burn;
+}
+
+#yurt {
+	position: relative;
+	top: 20px;
+	width: 110px; height: 70px;
+	left: 41%;
+}
+#yurt2{
+	left: 100%;
+}
+
+#text {
+	border: 1px solid black;
+	border-radius: 10px;
+	position: relative;
+	color:#ffcc99;
+	font-size: 70px;
+	z-index: 200;
+	width: 300px;
+	left: 40%;
+	text-align: center;
+}
+ 
+#pfn {
+	position: relative;
+	top: 650px;
+	width: 140px; 
+	height: 70px;
+	margin-right: 10%;
+	left: 41%;
+}
+
+.container
+{
+	position: relative;
+	display: flex;
+	margin-left: 25%;
+	flex-direction: column;
+	padding:50px 0;
+	transform-style: preserve-3d;
+}
+
+.container .box {
+	position: relative;
+	width: 450px;
+	height: 500px;
+	margin: 70px 0;
+	background: #ffcc99;
+	background: #ffcc99;
+	transform-style: preserve-3d;
+}
+
+.container .box:hover {
+	box-shadow: 0 150px 200px rgba(0,0,0, 0.1);
+}
+.container .box .imgBx {
+	position: absolute;
+	top:0;
+	left:0;
+	
+}
+
+.container .box  .contentBx {
+	position: absolute;
+	top:50%;
+	left:30%;
+	right: 50px;
+	background:  #FFC300;
+	width: 1000px;
+	transform: translateZ(20px) scaleY(0);
+	padding: 40px 25px;
+	transform-origin: top;
+	transition : 0.5s;
+	transform-style: preserve-3d;
+}
+
+.container .box:hover .contentBx {
+	transform: translateZ(50px) scaleY(1);
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+div .item img {
+	width: 60%;
+	margin:0 auto;
+}
+
+#myCarousel{
+	width: 50%;
+	margin: 0 auto;
+}

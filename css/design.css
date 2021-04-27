@@ -1,0 +1,96 @@
+html body {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  background: #ffcc99;
+  color:#666;
+}
+.login-container{
+  height: 100vh;
+  width: 100%;
+}
+.login-form{
+  margin: auto;
+  width: 370px;
+  padding: 15px;
+  max-width: 100%;
+  box-shadow: inset 0px 0px 0px rgba(0, 0, 0, 0.5),
+  					-20px -20px 20px rgba(255, 195, 0, 0.5),
+  					20px 20px 20px rgba(255, 195, 0, 0.5);
+  border-radius: 10px;
+}
+.login-form .form-control{
+  font-size: 15px;
+  min-height: 48px;
+  font-weight: 500;
+
+}
+.login-form a{
+  text-decoration: none;
+  color:#666;
+}
+.login-form a:hover{
+  color:#FFC300;
+}
+.forgot-link{
+  font-size: 13px;
+}
+
+.form-control:focus{
+  border-color:#FFC300;
+  box-shadow: #FFC300;
+}
+.btn-custom{
+  background: grey;
+  border-color: grey;
+  color:#fff;
+  font-size: 15px;
+  font-weight: 600;
+  min-height: 48px;
+}
+.btn-custom:focus,
+.btn-custom:hover,
+.btn-custom:active,
+.btn-custom:active:focus{
+  background: #FFC300;
+  border-color: #FFC300;
+  color:#fff;
+}
+.btn-custom:focus{
+  box-shadow: #FFC300;
+}
+
+img {
+	margin: -70px 0px 30px 0px;
+	border: 4px solid black;
+	width: 100px;
+	height: 100px;
+	border-radius: 10px;
+}
+
+form {
+	border: 5px solid black;
+}
+
+.panel-footer{
+	padding: 20px 0px 20px 0px;
+	text-align: center;
+	background-color: black;
+}
+.p1 {
+	padding: 15px;
+	margin-left: 25%;
+	width: 50%;
+	border-bottom: 1px solid #FFC300;
+} 
+.p2 {
+	padding: 15px;
+	margin-left: 25%;
+	width: 50%;
+	border-top: 1px solid #FFC300;
+}
+
