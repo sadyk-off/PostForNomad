@@ -1,0 +1,1 @@
+My website is related to online bookshop. This is demo version, for that reason i haven't time to finish. I had to add bot, where you can find the book. Also on the future we can develop this project to upper degree. Now we can only see, the main points on the screen.
